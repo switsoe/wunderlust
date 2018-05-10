@@ -1,65 +1,16 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <title>AJAX Giphy Button Review</title>
-  <meta charset="utf-8">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body id="wholeThing">
-
-  <div class="jumbotron" id="header">
-    <h1>Wunderlust</h1>
-    
-  </div>
-
-  <form class="form-inline" id="DisneySearch">
-    <div class="form-group">
-      <label for="DisneyInput">Search for a Disney Characters</label>
-      <input type="text" id="DisneyInput">
-    </div>
-    <!-- Button triggers show to be added -->
-    <input id="addShow" type="submit" value="submit">
-  </form>
-
-  <div class="row">
-    <div class="container">
-      <div class="btn-group inline pull-left">
-        <button class="btn btn-primary" id="show" data-search="Lion King">Lion King</button>
-        <button class="btn btn-primary" id="show" data-search="Aladdin">Aladdin</button>
-        <button class="btn btn-primary" id="show" data-search="Star Wars">Star Wars</button>
-        <button class="btn btn-primary" id="show" data-search="Beauty and the Beast">Beauty and the Beast</button>
-
-        <div id="myButtons"></div>
-      </div>
-      
-      <!--end of button group -->
-    </div>
-    <!--end of container -->
-  </div>
-  <!--end of row -->
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="assets/css/style.css" rel ="stylesheet" type="text/css">
+        <title></title>
+    </head>
+    <body>
 
 
-  <div class="row">
-    <div class="container">
-      <span>
-        <div id="gifArea"></div>
-      </span>
-    </div>
-    <!--end of container -->
-  </div>
-  <!-- end of row  -->
-
-
-  <script type="text/javascript" src="assets/javascript/app.js" </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-</body>
-
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/functions.js" type="text/javascript"></script>
+    </body>
 </html>

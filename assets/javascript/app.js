@@ -22,3 +22,8 @@ $(document).ready(function () {
         }).done(function (response) {
             var results = response.data;
             console.log(results);
+        });
+
+
+
+        
