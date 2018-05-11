@@ -23,11 +23,11 @@ function pickCity(){
        // console.log(cities[random(cities)].name);
          city = cities[random(cities)].name;
         $(".city-name").text(city);
-          
+          console.log("hi there")
 
     });
 }        
 
 
 
-$("").on("click" , ".wunderlust-btn" , pickCity);
+$("body").on("click" , ".wunderlust-btn" , pickCity);
