@@ -1,0 +1,38 @@
+body{
+    background-image: url(../images/mountain.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+.wunderlust-btn{
+    background: rgba(255,255,255,.7);
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 2rem;
+    border: solid 4px white;
+    border-radius: 50%;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+    transition: 1.4s;
+    font-weight: 800;
+    cursor: pointer;
+}
+.wunderlust-btn:hover{
+    background: rgba(0,0,0,.8);
+    border: solid 4px white;
+    color: white;
+    transform: rotate(1080deg);
+
+}
+
