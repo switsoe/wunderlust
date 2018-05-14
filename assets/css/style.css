@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image: url(../images/mountain.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -10,7 +10,7 @@ body{
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
-  }
+  } */
 
 .wunderlust-btn{
     background: rgba(255,255,255,.7);
@@ -35,4 +35,93 @@ body{
     transform: rotate(1080deg);
 
 }
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+ 
+ .logo{
+   color: black;
+   text-align: center;
+ }
+ 
+ .Wunderlust-btn1{
+   background: rgba(255,255,255,.7);
+   text-align: center;
+   width: 100px;
+   height: 100px;
+   padding: 2rem;
+   border: solid 4px white;
+   border-radius: 50%;
+   color: black;
+   text-transform: uppercase;
+   letter-spacing: .2rem;
+   font-size: 1.2rem;
+   transition: 1.4s;
+   font-weight: 800;
+   cursor: pointer;
+ }
+ .Wunderlust-btn1:hover{
+   background: rgba(0,0,0,.8);
+   border: solid 4px black;
+   color: red;
+   transform: rotate(1080deg);
+ 
+ }
+ 
+
 
