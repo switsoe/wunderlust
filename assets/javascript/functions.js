@@ -30,4 +30,4 @@ function pickCity(){
 
 
 
-$("body").on("click" , ".wunderlust-btn" , pickCity);
+$("body1").on("click" , ".wunderlust-btn" , pickCity);
